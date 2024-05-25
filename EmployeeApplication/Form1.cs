@@ -17,7 +17,7 @@ namespace EmployeeApplication
 
             label10.Text = textBox1.Text;
             label11.Text = textBox2.Text;
-            label12.Text = Convert.ToString(partTimeEmployee.getSalary);
+            label12.Text = partTimeEmployee.getSalary().ToString();
         }
 
 
